@@ -1,0 +1,275 @@
+
+body {
+    background: #f1f5f9;
+    color: #7697cc;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #8baa1c !important;
+    box-shadow: 0 3px 12px rgba(154, 83, 182, 0.12);
+    padding: 14px 20px;
+}
+
+.navbar-brand {
+    color: #467daa !important;
+    font-weight: 700;
+}
+
+.navbar .nav-link {
+    color: #12181f !important;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #aeb8b9 !important;
+}
+
+/* CARDS */
+.card {
+    background: #ffffff;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(200, 208, 219, 0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 7px 20px rgba(30, 58, 95, 0.13);
+}
+
+.card-header {
+    background: #ffffff;
+    color: #1e3a5f;
+    font-weight: 600;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 16px;
+}
+
+/* STATISTICS CARDS */
+.stat-card {
+    min-height: 130px;
+    padding: 22px;
+    border-radius: 14px;
+}
+
+.stat-card h3 {
+    color: #1e3a5f;
+    font-weight: 700;
+}
+
+.stat-card p {
+    color: #64748b;
+}
+
+/* TABLE */
+.table {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    padding: 13px;
+}
+
+.table thead th {
+    background: #1e3a5f;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+}
+
+.table tbody tr:hover {
+    background: #eff6ff;
+}
+
+.table tbody td {
+    color: #334155;
+}
+
+/* SEARCH BOX */
+.search-box {
+    max-width: 280px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    padding: 10px 14px;
+}
+
+.search-box:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+    outline: none;
+}
+
+/* BUTTONS */
+.btn {
+    border-radius: 7px;
+    padding: 8px 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-success {
+    background: #059669;
+    border-color: #059669;
+}
+
+.btn-danger {
+    background: #dc2626;
+    border-color: #dc2626;
+}
+
+/* EDIT BUTTON */
+.btn-edit,
+.edit-btn {
+    background: #f59e0b;
+    color: #ffffff;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.btn-edit:hover,
+.edit-btn:hover {
+    background: #d97706;
+    color: #ffffff;
+}
+
+/* DELETE BUTTON */
+.btn-delete,
+.delete-btn {
+    background: #dc2626;
+    color: white;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.btn-delete:hover,
+.delete-btn:hover {
+    background: #b91c1c;
+    color: white;
+}
+
+/* FORMS */
+.form-control,
+.form-select {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 11px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.form-label {
+    color: #334155;
+    font-weight: 600;
+}
+
+/* LOGIN PAGE */
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3a5f, #2563eb);
+}
+
+.login-card {
+    max-width: 430px;
+    width: 100%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(15, 23, 42, 0.2);
+}
+
+.login-card h2 {
+    color: #1e3a5f;
+    font-weight: 700;
+}
+
+/* ANNOUNCEMENTS */
+.announcement-message {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.7;
+    color: #475569;
+}
+
+/* BADGES */
+.badge {
+    padding: 7px 10px;
+    border-radius: 6px;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .search-box {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .table {
+        font-size: 13px;
+    }
+
+    .login-card {
+        margin: 20px;
+        padding: 24px;
+    }
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: bold;
+}
